@@ -1,14 +1,14 @@
 body { 
     margin: 0;
     font-family: 'Bebas Neue', sans-serif;
-    color: white;
-    background-color: #4b4b4b;
+    color: black;
+    background-color: rgb(250, 250, 250);
 }
   
 #header {
-    background-color: #252525;
+    background-color: #f3f3f3ff;
     padding: 50px 10px;
-    color: black;
+    color: #804444;
     text-align: center;
     font-size: 90px; 
     font-weight: bold;
@@ -48,7 +48,7 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #804444;
     display: block;
     transition: 0.3s;
   }
@@ -76,7 +76,7 @@ body {
   }
 
   #openbtn{
-    color: white;
+    color: black;
     position: absolute;
     transition: 0;
     z-index: 10;
@@ -85,6 +85,7 @@ body {
   .header-collectie{
     font-size: 50px;
     margin-top: 50px;
+    color: #804444;
   }
 
   .movieposter{
@@ -103,7 +104,7 @@ body {
   }
 
   .background-gallery{
-    background-color: #646464;
+    background-color: #804444;
     position: absolute;
     width: 1428px;
     height: 150px;
